@@ -1,0 +1,225 @@
+{"intents": [
+    {"tag": "greeting",
+      "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey", "Morning!", "Good morning", "Good afternoon", "Good evening"],
+      "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+      "context_set": ""
+    },
+    {"tag": "goodbye",
+      "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye", "cao", "see ya", "Bye bye!", "bye !", "Talk to you later", "See you soon", "Goodnight", "Catch you later"],
+      "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+      "context_set": ""
+    },
+    {"tag": "task",
+      "patterns": ["What can you do ?","What do you do ?", "what should i ask you?", "How can i use you ?"],
+      "responses": ["You can talk to me anytime :)", "I can answer your questions", "I am very intelligent :) \n I can do mathematics too..!!", "Glad you asked !!\n I can help you with many things: Just ask :)", "I can answer your queries related to GDSC."],
+      "context_set": ""
+    },
+    {"tag": "about",
+     "patterns": ["What is GDSC?", "What is the GDSC?", "What is the full form of GDSC?", "What is meant by GDSC?","What does GDSC stand for?","what is the purpose of gdsc?","What is the objective of gdsc?","What is the object of gdsc?","What is gdsc about?","What does gdsc aim to achieve?", "What is GDSC gtbit?", "full form of gdsc "],
+     "responses" : ["GDSC stands for Google Developer Student Clubs. This is a community program supported by Google where people with interest in technology come together to learn, build and grow together. GDSC-GTBIT currently offers mentorship and community support in all sorts of tech and non-tech domains"],
+     "context_set" : ""
+     },
+     {"tag": "perks",
+     "patterns": ["What are the perks of being in GDSC?", "What are the perks of being in GDSC gtbit?",  "What benefits come with joining GDSC?", "What advantages do members of GDSC receive?", "What benefits come with being a member of GDSC?","Do we get a certificate/letter after joining gdsc ?","Why join gdsc as a member ?","How will joining gdsc benefit me ?","How will gdsc help me improve my technical skills?","How is gdsc different from other technical societies ?","What benefits do GDSC members receive?","What advantages do GDSC members receive?","What are benefits of GDSC?", "What arec the banefits of joining GDSC ?", "Benefits of GDSC", "Benefits of joining GDSC"],
+     "responses" : ["GDSC is one of the world's largest spreading community programs. We offer teaching, where  google dev experts join us every month and teach some or the other technology. We also open your pathway to meetups and resources where you can present your skills, network and grow. Together we learn, laugh and build amazing projects"],
+     "context_set" : ""
+     },
+     {"tag": "hours",
+     "patterns": ["How many hours should I give to GDSC?", "How many hours should I give to GDSC gtbit?", "What amount of time should I devote to GDSC?", "I should devote how many hours to GDSC?", "What number of hours should I dedicate to GDSC?", "How many hours should I devote to GDSC?"],
+     "responses" : ["It totally depends on how much you can contribute! We never put any time boundations on our members, and are always respectful about your time. "],
+     "context_set" : ""
+     },
+     {"tag": "lead_s",
+     "patterns": ["How are leads selected in GDSC?", "How are leads selected in GDSC gtbit ?", "How do leads in GDSC get chosen?", "How does GDSC choose its leads?", "In the GDSC, how are leads chosen?","How can i become a lead in GDSC?", "How to become a GDSC lead?","How to become a lead at GDSC?", "How can become a GDSC lead?"],
+     "responses" : ["People who want to apply to become a lead can fill the application form when it opens annually."],
+     "context_set" : ""
+     },
+     {"tag": "recruitment",
+     "patterns": ["When will be the recruitment for GDSC?", "When will be the recruitment for GDSC gtbit ?", "When will the GDSC recruitment process begin?", "The GDSC recruitment process will begin when?", "When will the GDSC recruitment begin?", "When will the GDSC recruitment take place?","When is recruitment for GDSC going to start?", "When will be the admission for GDSC?","When will the GDSC admission take place?","When do applications for gdsc open up?", "When will GDSC admission application release?", "GDSC recruitment", "GDSC admission", "How to join gdsc ?", "How to be a gdsc ?", "How do i join gdsc ?", "How to join gdsc gtbit as a member ?", "How to join gdsc as a member ?"],
+     "responses" : ["GDSC-GTBIT opens its applications twice a year, once when the new tenure is announced and once when freshers join college. BUT! We are always on the lookout for talented people,  so come to our events and show us your skills and we will invite you to join us!"],
+     "context_set" : ""
+     },
+     {"tag": "first_year",
+     "patterns": ["Can first year students apply for GDSC?", "Can first year students apply for GDSC gtbit ?", "Can first year students submit a GDSC application to apply?","Is GDSC open to first-year students?","Does gdsc accept freshers as their members?","Does gdsc recruit freshers ?","Does gdsc recruit first-year students?","Can students from non technical branches apply in gdsc?","Can non technical branches students apply for gdsc?","Can students from ECE branch apply in gdsc ?","Can ECE branch students apply to GDSC?", "Can a newbie join GDSC?", "Can first year join gdsc ?", "Can non tech people join gdsc ?", "Can non tech students join gdsc ?", "can i join gdsc if i am not from technical background ?"],
+     "responses" : ["YES! GDSC is open for everyone irrespective of age, year, or branch!"],
+     "context_set" : ""
+     },
+     {"tag": "value",
+     "patterns": ["Is GDSC worth it?","Is GDSC gtbit worth it?", "Is there any value in GDSC?", "How valuable is GDSC?"],
+     "responses" : ["Absolutely! It provides an environment of learning and support and we at GDSC-GTBIT under the leadership of Kanishk Khurana ensure that all domains work efficiently and students learn something new each week."],
+     "context_set" : ""
+     },
+     {"tag": "internship",
+     "patterns": ["Does GDSC provide internships? ","Does GDSC gtbit provide internships? ", "Does the GDSC offer internships?", "Are internships offered by GDSC?", "Can i get internships through GDSC?", "Does gdsc help in getting internships?", "Will you help me in getting some intrnships?", "Does gdsc help me with my career?", "Will GDSC provide us some good oportunities?", "How will GDSC provide me oportunities?", "Hwo will gdsc help me in my career?"],
+     "responses" : ["Yes! We provide mentorship, training and certificates as well that can help you in getting internships and we share hiring opportunities constantly on our server."],
+     "context_set" : ""
+     },
+     {"tag": "room",
+     "patterns": ["Does GDSC have an office/ meeting room?","Does GDSC gtbit have an office/ meeting room?", "Does GDSC have a workspace or conference room?", "Is there a workspace or conference room at GDSC?", "A conference or office space is there at GDSC?", "Does gdsc has its own meeting room ?", "Do gdsc own a room in college?", "Do you have a meeting room ?", "Do you have a workspace in college?"],
+     "responses" : ["Yes! We are super happy to announce that in the year 2022 we have been given our own lab and our virtual headquarters are on Discord"],
+     "context_set" : ""
+     },
+     {"tag": "groups",
+     "patterns": ["How many groups can we join at once? ", "How many domains can we simultaneously join?", "Can we join many groups at once?", "We are able to join how many groups at once?", "How many groups may we join at once?","How many teams can we join at once?","How many domains can we join at once?","Are the number of domains restricted?","Is there a limit on number of teams that we can join?","Is there a limit in the number of domains that we can enter into?", "How many domains can i join in gdsc gtbit ?", "Maximum number of domains i can join in gdsc "],
+     "responses" : ["We usually don't put any bar on talent and interest. You can interview for as many domains you want, and get selected!"],
+     "context_set" : ""
+     },
+     {"tag": "x_leads",
+     "patterns": ["Who are late leads of GDSC GTBIT?", "Who are the GDSC GTBIT late leads?", "GDSC GTBIT late leads: who are they?", "Which individuals are GDSC GTBIT late leads?", "Who are the late leads for GDSC GTBIT?", "Who are the ex leads of gdsc ?", "Who are the past leads of gdsc ?", "Who led gdsc in the past?"],
+     "responses" : ["You can find all about the previous leads of GDSC-GTBIT in the hall of fame of our teams section."],
+     "context_set" : ""
+     },
+     {"tag": "time",
+     "patterns": ["What time does GDSC gtbit work?", "Working hours of GDSC?"],
+     "responses" : ["We don't conform to the 9-5 corporate structure because students can be busy in college and family as well, everything is equally important. But for meetings and all we inform our members well in time."],
+     "context_set" : ""
+     },
+     {"tag": "mentors",
+     "patterns": ["Are there exceptional mentors in GDSC?", "Are there exceptional mentors in GDSC gtbit ?" , "Do there exist any outstanding mentors at GDSC?", "Do the GDSC have any outstanding mentors?"],
+     "responses" : ["We pick our team leaders after extreme interviews to ensure that they are active and comfortable with mentoring an entire team. Apart from this we always invite google dev experts who excel in a particular technology to provide industry-level guidance to our students. So yes! We've got exceptional mentors."],
+     "context_set" : ""
+     },
+     {"tag": "workflow",
+     "patterns": ["What is the workflow of GDSC?","What is the workflow of GDSC gtbit ?", "What is the GDSC workflow?", "What is the GDSC process?", "How does GDSC operate?","How does GDSC works?","How does GDSC function?","What is the GDSC object model?","What is the GDSC schema?","What is GDSC's process?","What is the GDSC's  workflow?", "How does gdsc work ?"],
+     "responses" : ["We run a lot of domains and events simultaneously. For events, we collect all resources, communicate with college and design materials needed for outreach. For community projects, the team leads guide the members and ensure that all tasks are completed before the deadline."],
+     "context_set" : ""
+     },
+     {"tag": "members",
+     "patterns": ["How many members are there in GDSC?","How many members are there in GDSC gtbit ?", "How many people make up the GDSC?", "How many people are a part of GDSC?", "What is the size of the GDSC membership?", "How many active members are there in gdsc ?", "Total number of members in gdsc ?", "At present how many members are there in gdsc ?", "no. of members in gdsc gtbit", "no. of active members of gdsc ", "What no. of member are associated with gdsc gtbit in present ?"],
+     "responses" : ["Currently GDSC-GTBIT has more than 50 members"],
+     "context_set" : ""
+     },
+     {"tag": "pay",
+     "patterns": ["Do we have to pay to get into GDSC?","Do we have to pay to get into GDSC gtbit ?", "Does it cost money to enter GDSC?", "Do we need to pay to enter the GDSC?","Is there any fees to join GDSC?","Do we have to pay an amount to join GDSC?","How much money do we have to pay to get into GDSC?","Is there any fees required to enter into GDSC?", "How much should i pay to get in gdsc ?", "How much is the fees to get in gdsc ?", "What is the fees to get into GDSC ?", "Is there a fees to join gdsc ?"],
+     "responses" : ["NEVER! We will never charge even a penny for you to get enrolled in GDSC-GTBIT. All our perks are for free and will always be."],
+     "context_set" : ""
+     },
+     {"tag": "active",
+     "patterns": ["Do we have to be active every day once we are in GDSC?","Do we have to be active every day once we are in GDSC gtbit ?", "Once we are in GDSC, do we have to remain active every day?", "Once we are a part of the GDSC, must we be active every day?", "Once we are enrolled in GDSC, do we need to remain active every day?"],
+     "responses" : ["We encourage members to be active in the community in whatever  way they can and never force people. We always understand when members have issues and can't be very active."],
+     "context_set" : ""
+     },
+     {"tag": "attendance",
+     "patterns": ["Do we get attendance if we attend GDSC events?","Do we get attendance if we attend GDSC gtbit events?","If we go to GDSC activities, do we get attendance credit?","Do we receive attendance for GDSC events?","Attending GDSC events will we receive attendance credit?"],
+     "responses" : ["We try to manage attendance by keeping ourselves accountable to the college. "],
+     "context_set" : ""
+     },
+     {"tag": "merch",
+     "patterns": ["Will we get GDSC merch being a GDSC member?","Will we get GDSC gtbit merch being a GDSC gtbit  member?","As GDSC members, will we receive GDSC merchandise?","Will we receive GDSC merchandise if we join?","As GDSC members, will we receive GDSC swag?", "Do we get gdsc merch", "Do we get GDSC merchandise ?", "How can we get gdsc swags", "do we get gdsc swags?", "Does gdsc provide us with its merchandise?", "Do we get swags being a gdsc member ?", "Do gdsc provide swags and merchs to its members ?", "Do we get merchs being in gdsc ?", "Does gdsc provide us with swags ?"],
+     "responses" : ["Absolutely! We've got T-shirts, stickers and all other swags you want!"],
+     "context_set" : ""
+     },
+     {"tag": "interviews",
+     "patterns": ["Does GDSC prepare us for interviews?","Does GDSC gtbit prepare us for interviews?","Does GDSC give us interview preparation?","Are we prepared for interviews by GDSC?","Do we receive interview preparation from GDSC?"],
+     "responses" : ["Absolutely! We mentor our students in soft skills as well, apart from tech skills that we teach."],
+     "context_set" : ""
+     },
+     {"tag": "lead",
+     "patterns": ["Who is the GDSC lead?","Who is the GDSC gtbit lead?","Who leads the GDSC?", "Who is the current gdsc lead ?", "GDSC lead"],
+     "responses" : ["Kanishk Khurana is the GDSC-GTBIT lead. He is currently working as a SDE intern at Lumos Labs and has been around the community for quite some time. He is a full-stack software developer and prior to becoming the GDSC-Lead he was the team leader of the Machine-Learning team !"],
+     "context_set" : ""
+     },
+     {"tag": "events",
+     "patterns": ["When is GDSC's next event?", "When is GDSC gtbit next event?","When will the upcoming GDSC event take place?","When can we expect the next GDSC event?","When is the upcoming GDSC event?","When does the next GDSC event occur?","When will the next GDSC event be held?","When will you host the next GDSC event?","What is the upcoming GDSC event?","What's next on GDSC's agenda?","What is the next GDSC event?","What is GDSC's next event about?","Where can I find the list of GDSC's previous events?","Where do I find the list of past GDSC events?","Where can I locate a list of previous GDSC events?","How do I find a list of previous GDSC events?","Where can I find a list of previous GDSC activities?"],
+     "responses" : ["You can check the latest event in the events tab"],
+     "context_set" : ""
+     },
+     {"tag": "non_tech",
+     "patterns": ["Does GDSC conduct non-tech events too?","Does GDSC gtbit conduct non-tech events too?","Does GDSC also host non-technical events?","Does the GDSC also host non-technical events?","Do they also organize non-technical events?","Does the GDSC host non-technical events as well?","Do they have non-technical events as well?","Are non-technical events also organized by GDSC?","Are non-technical events also held at the GCSG?","Are non-technical events being organized by the GDSC as well?"],
+     "responses" : ["We conduct Group-Discussions, tech-talks, speaker sessions and even mock interviews to prepare our members for their interviews. We have been quite successful with our non-tech initiatives in the past with our Design Challenges, Monthly Newsletter and Ui/Ux products"],
+     "context_set" : ""
+     },
+     {"tag": "growth",
+     "patterns": ["How will GDSC help me grow in tech, as I am a beginner?","How will GDSC gtbit help me grow in tech, as I am a beginner?","How will GDSC help me grow in technology, as I am a newcomer?","How is GDSC going to help me grow in technology, that I am a beginner?","How will GDSC help me grow up in technology as a beginner?","How will GDSC help me grow into technology, as a newcomer?","How will GDSC help me grow into technology, that I am a newbie?","How is GDSC going to help me grow into technology, as a novice?","How will GDSC help me grow in technology, since I am a novice?","How will GDSC help me to grow in technology, as a newbie?","Why join gdsc as a member ?","How will joining gdsc benefit me ?","How will gdsc help me improve my technical skills?","How is gdsc different from other technical societies ?","What benefits do GDSC members receive?","What advantages do GDSC members receive?","Do we get a letter after joining gdsc ?","Do we get a certificate/letter after joining gdsc ?"],
+     "responses" : ["We will provide you mentoring from day 1 about the most relevant skills in the industry. We talk openly about the path we took while learning and how you can go one step ahead. We provide constant support to all our members throughout their careers"],
+     "context_set" : ""
+     },
+     {"tag": "newbie",
+     "patterns": ["I don't have any experience, can I still join GDSC?","I don't have any experience, can I still join GDSC gtbit ?","I don't have any experience, can I still join it?","I'm inexperienced, can I still join GDSC?","I have no background, can I still join GDSC?","I lack experience, can I still join GDSC?","I have no experience, am I still able to join GDSC?","I have no experience, may I always join GDSC?","I have no experience, can I still be a member of GDSC?","I have no experience, can I stay with GDSC?","I have no experience, can I join GDSC all the time?"],
+     "responses" : ["You're more than welcome! Join us and feel what it's like to be a part of a global community"],
+     "context_set" : ""
+     },
+     {"tag": "joining",
+     "patterns": ["What is the process of joining GDSC?","What is the process of joining GDSC gtbit ?","What is the process of becoming a member of the GDSC?","What is the GDSC enrolment process?","What is the GDSC accession process?","What is the process for adhering to the GDSC?","What is the GDSC membership process?","What is the process for enrolling in the GDSC?","What is the process for becoming a GDSC member?","How does the GDSC process work?","How can I get into gdsc?","How can I apply in gdsc?","How can I join gdsc?","How does gdsc recruit its members?","How does the GDSC members get recruited?","How does admissions in gdsc take place?","How are the students admitted in gdsc ?","How do i get into gdsc ?", "How to get into gdsc ?", "What to do to get in gdsc ?", "How to get into gdsc ?", "What is the process to get into gdsc ?", "What i need to do to get into gdsc ?", "Can i get into gdsc ?", "How can i join gdsc ?", "How do i join gdsc ?", "HOW CAN I JOIN GDSC ?"],
+     "responses" : ["Interview forms are released and you can join through them."],
+     "context_set" : ""
+     },
+     {"tag": "google",
+     "patterns": ["Is GDSC associated with Google?","Is GDSC gtbit associated with Google?","Is the GDSC related to Google?","Is the GDSC in partnership with Google?","Is the GDSC a partner of Google?","Does the GDSC work with Google?","Does the GDSC belong to Google?","Is the GDSC associated to Google?","Is GDSC involved in Google?","Does the GDSC have a partner in Google?"],
+     "responses" : ["Yes! GDSC is the community program powered by Google "],
+     "context_set" : ""
+     },
+     {"tag": "referral",
+     "patterns": ["Will we get referral in Google after joining GDSC?","Will we get referral in Google after joining GDSC gtbit ?","Will we get references in Google after joining GDSC?","Will there be references in Google after joining GDSC?","Will we have references within Google after joining GDSC?","Are we going to have references in Google after joining GDSC?","Will we have references on Google after our GDSC membership?","Will we have references in Google once we sign up for GDSC?","Will we have references in Google post GDSC membership?","Will we have references in Google as a result of joining GDSC?"],
+     "responses" : ["We dont give out referrals for Google, but we do have a network of engineers and community managers who can help out! Also our alumnus have been a tremendous help in getting our members hired at high paying jobs all year round."],
+     "context_set" : ""
+     },
+     {"tag": "institutions",
+     "patterns": ["How many institutions are under GDSC?","How many facilities are under GDSC?","How many sites are under GDSC?","How many facilities are in GDSC?","How many plants are under GDSC?","How many locations are under GDSC?","How many properties are under GDSC?","How many establishments are under GDSC?","How many sites are in GDSC?"],
+     "responses" : ["More than 700 in india and global number is increasing every year!"],
+     "context_set" : ""
+     },
+     {"tag": "domains",
+     "patterns": ["How many domains are there in GDSC?","How many domains are there in GDSC gtbit ?","How many domains are on GDSC?","How many domains do you have within GDSC?","How many domains can I find in GDSC?","How many domains are available within GDSC?","How many domains does GDSC contain?","How many domains do you find in GDSC?","What is the number of domains in GDSC?","How many domains exist within GDSC?"],
+     "responses" : ["GDSC-GTBIT currently has 11 domains, and we add more as per our members' request!"],
+     "context_set" : ""
+     }
+     ,
+     {"tag": "achievements",
+     "patterns": ["What are the current achievements of gdsc ?","What are the current achievements of gdsc gtbit ?","What milestones has the gdsc made so far?","What successes has the gdsc made so far?","What has GDSC GTBIT achieved till now?","Are there any achievements of GDSC?","Are there any milestones of GDSC?","Has GDSC achieved anything till now?","Any successful projects of GDSC?","What milestones has GDSC achieved till now?","What are GDSC's most recent accomplishments?","What are GDSC' s latest performances?","What are GDSC' s latest career achievements?","What accomplishments has GDSC made so far?"],
+     "responses" : ["Here are the achievements of GDSC-GTBIT from August to october 2022\n1)   BCG - Rajasthan Government\nWe recently worked with Boston Consulting Group and the Rajasthan Government on a website that helps teachers understand and use the new RKSMBK App. Their doubts are recorded and displayed in Hindi Text. The reported footfall on this website is in crores as it is being used around India. It is a full stack app with react.js on frontend and google sheets as database.\n2)   Solana Hacker House-\nGDSC-GTBIT presented its blockchain app at the Solana HackerHouse that happened in JW Marriot, Aerocity from 8-11 september. Our project is called TigerDev. It is an NFT portal to help raise funds for a dying breed of tigers and save them from extinction.\nThe project has an app built using flutter framework so it can be run on iOS and Android and website is built using react.js. We received a lot of funding offers and praise at the event and a lot of our members also got hired then and there by various Web3 companies.\n3)   SatyugDAO\nThis is a project we recently picked as a community, The idea here is to take Temples, Gurudawaras and other holy sites to the metaverse. We have been working on the design, development and marketing side of things here. The MVP is still under production and will be launching soon.\n4)   Trainings and Projects and  Smart India Hackathon-\nEvery member in the technical teams like App Development, Website Development. Infact all the teams from our college that went for SIH were from GDSC.\n5)   ChatBot By Machine Learning Team-\nThe Machine Learning team has been working on a chatbot that will be deployed on the gdsc website. The purpose of this chatbot is to answer any questions that a user on the website may have."],
+     "context_set" : ""
+     },
+     {"tag": "benefits",
+     "patterns": ["How has gdsc helped its past members in their career ?","How has gdsc gtbit helped its past members in their career ?","How has the GDSC benefited its former members' careers?","How has the GDSC aided the lives of its ex members?","What career advancements have the GDSC's former members experienced?"],
+     "responses" : ["Our team has the highest number of oncampus hiring offers. Our members have cleared GSOC and  GSOD and we are the most celebrated tech society of the college with our members reaching great heights in their careers in a very short amount of time"],
+     "context_set" : ""
+     },
+     {"tag": "web_app",
+     "patterns": ["Does GDSC have a website/app?","Does GDSC gtbit have a website/app?","Does GDSC have its own website or app?","Is there a website or app available for GDSC","Do you have a website ?", "Does gdsc have its app ?", "Do you have an app or website ?"],
+     "responses" : ["Yes! We have a website and the app is currently under development! You can find information about this on our social media channels as well"],
+     "context_set" : ""
+     },
+     {"tag": "code",
+     "patterns": ["Will we get the code of the projects that we do under GDSC","Will we get the code of the projects that we do under GDSC gtbit ","Do we receive the source code for the projects we work on under GDSC?","Does GDSC provide us with the source code for the projects we collaborate on?","For the projects we participate on with GDSC, do we receive the source code?"],
+     "responses" : ["Absolutely! You can show them in interviews as well."],
+     "context_set" : ""
+     },
+     {"tag": "teach",
+     "patterns": ["Will you guys teach us everything from scratch?","Will you all start from the beginning and teach us everything?","Are you going to start from zero and teach us everything?","Will you all start from fresh and educate us on everything?", "Will gdsc gtbit teach us everything from scratch ?", "Does gdsc teach us from starting ?", "Do gdsc teach its members ?"],
+     "responses" : ["Yes! We have courses and support for beginner, intermediate and advanced level students."],
+     "context_set" : ""
+     },
+     {"tag": "core",
+     "patterns": ["How to be a part of GDSC core team?","How to be a part of GDSC gtbit core team?","How can I join the GDSC core team?","How does one join the core team of the GDSC?", "How to become a core member ?", "How can i become a core team member ?", "How can i join the gdsc core team ?", "Can we join the core team ?"],
+     "responses" : ["Be active in the community and show us your community management skills. "],
+     "context_set" : ""
+     },
+     {"tag": "certificate",
+     "patterns": ["Do we get a certificate from GDSC after being a part of it as a member?","Do we get a certificate from GDSC gtbit after being a part of it as a member?","Do we receive a certificate from GDSC after we join as members?","After becoming a member, do we get a certificate from GDSC?","Do we receive a certificate from GDSC after we register as member", "Do we get a certificate after joining gdsc ?"],
+     "responses" : ["Yes! We you will be awarded with a legitimate certificate that will prove the hard work you've done for the people around you and the impact you have created"],
+     "context_set" : ""
+     },
+     {"tag": "swags",
+     "patterns": ["Will we get swags during the events?","Will there be giveaways at the events?","Will we receive goodies at the events?","During the events, will we receive swag?","Will we get GDSC merch being a GDSC member?","As GDSC members, will we receive GDSC merchandise?","Will we receive GDSC merchandise if we join?","As GDSC members, will we receive GDSC swag?", "Do we get gdsc merch", "Do we get GDSC merchandise ?", "How can we get gdsc swags", "do we get gdsc swags?","do we get gdsc gtbit swags?", "Does gdsc provide us with its merchandise?"],
+     "responses" : ["Yes! We love to hand out swags and support the community members"],
+     "context_set" : ""
+     },
+     {"tag": "creator",
+     "patterns": ["Who created you ?", "Who made you ?", "Who built you ?", "who is your creator ?"],
+     "responses" : ["The GDSC - GTBIT ML Team has created me.... :)"],
+     "context_set" : ""
+     },
+     {"tag": "help",
+     "patterns": ["help", "Help", "HELP", "help!", "Help?", "Help!!"],
+     "responses" : ["Hey there ! \nGlad you asked :) \n-> I can answer your queries related to GDSC. \n-> You can ask me other questions as well i will try my best to answer them all. \n-> I am good at mathematics too. Just ask :)", "General knowledge ques / learning day by day..... / "],
+     "context_set" : ""
+     },
+     {"tag": "",
+     "patterns": [],
+     "responses" : [],
+     "context_set" : ""
+     }
+
+  ]
+  }
